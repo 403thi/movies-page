@@ -80,6 +80,10 @@ h1 {
 .chamada-texto {
     margin-right: 5%;
     opacity: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .chamada-texto a{
@@ -122,7 +126,7 @@ p {
 
 .categoria-videos img {
     opacity: 0.5;
-    height: 400px;
+    height: 20em;
     transition: all 0.4s;
 
 }
